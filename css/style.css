@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col {
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    position: relative;
+}
+
+.col h2 {
+    cursor: pointer;
+    padding: 10px;
+    transition: .3s;
+}
+
+.col h2:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.col button {
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+    transition: .3s;
+}
+
+.col button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.push__copy {
+    position: absolute;
+    padding: 10px;
+    opacity: 0;
+    background: black;
+    color: white;
+    transition: .5s;
+    top: -50px;  
+    left: 23px;
+}
+
